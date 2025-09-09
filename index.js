@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Home route
 app.get("/", (req, res) => {
-  res.send("<h1>🏠 Home Page</h1><p>Welcome to Express Test!</p>");
+  res.send("<h1>🏠 Home Page</h1>");
 });
 
 // About route
